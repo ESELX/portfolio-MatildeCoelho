@@ -19,6 +19,10 @@ void setup(){
     }
     else 
         d[i].display();
+        
+    stroke(255);
+    fill(0);
+    rect(mouseX,mouseY,100,50);
  }
 }
  
